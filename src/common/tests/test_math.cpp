@@ -19,6 +19,7 @@ namespace
 
     TEST_F(TestMath, add)
     {
-        EXPECT_THAT(math::add(1,2), 3);
+        EXPECT_THAT(math::add(1, 2, 0), 3);
     }
+
 } // namespace

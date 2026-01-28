@@ -6,8 +6,12 @@
 
 namespace common
 {
-    int math::add(const int a, const int b)
+    int math::add(const int a, int b, int c)
     {
         return a + b;
+    }
+
+    void math::notInUse()
+    {
     }
 }

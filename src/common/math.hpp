@@ -9,6 +9,7 @@ namespace common
     class math
     {
     public:
-        static int add(int a, int b);
+        static int add(int a, int b, int c);
+        static void notInUse();
     };
 }
