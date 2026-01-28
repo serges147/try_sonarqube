@@ -1,8 +1,9 @@
 cmake_minimum_required(VERSION 3.28)
+project(hello CXX)
 
 add_subdirectory(common)
 
-add_executable(untitled main.cpp)
-target_link_libraries(untitled
+add_executable(${PROJECT_NAME} main.cpp)
+target_link_libraries(${PROJECT_NAME}
         common
 )
