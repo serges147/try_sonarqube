@@ -13,5 +13,6 @@ namespace common
 
     void math::notInUse()
     {
+        // empty by design!
     }
 }
